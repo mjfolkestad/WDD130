@@ -3,25 +3,25 @@ Any spaces in your font name should be replaced with a +.
 Fonts are separated by a & */
 
 /* TODO: Week02 - if you choose to import fonts, change this line to match your import. */
-@import url("https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
 
 :root {
   /* TODO: Week02 - change the values below to your colors from your palette */
   --primary-color: #ffffff;
   --secondary-color: #000000;
   --accent1-color: #D0EFB1;
-  --accent2-color: white;
+  --accent2-color: #396e94;
 
   /* TODO: Week02 - change the values below to your chosen font(s). */
   /* TODO: Week02 - make sure you provide more than one font option for each to handle fallback */
-  --heading-font: "IM Fell French Canon";
-  --paragraph-font: Lato, Helvetica, sans-serif;
+  --heading-font: "Alegreya SC", Lato;
+  --paragraph-font: "EB Garamond", Lato;
 
   /* TODO: Week02 - these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: black; /* headlines on a white background */
-  --headline-color-on-color: #FFFFFF; /* headlines on a colored background */
+  --headline-color-on-color: #000000; /* headlines on a colored background */
   --paragraph-color-on-white: black; /* paragraph text on a white background */
-  --paragraph-color-on-color: #ffffff; /* paragraph text on a colored background */
+  --paragraph-color-on-color: #396e94; /* paragraph text on a colored background */
   --paragraph-background-color: #FFFFFF;
   --nav-link-color: #396e94;
   --nav-background-color: #FFFFFF;
