@@ -1,0 +1,21 @@
+body {
+    background-color: steelblue;
+}
+.title{
+    color: white;
+}
+h1 {color: white;
+
+}
+h2 {color: white;
+
+}
+footer {color: white;
+
+}
+p {color: white;
+
+}
+img {
+    max-width: 10%; height: auto;
+}
